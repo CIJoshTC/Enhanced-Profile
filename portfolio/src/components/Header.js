@@ -7,9 +7,9 @@ const Header = ()=> {
         <nav className="nav">
         <div className="logo">Joshua Thomas Connell</div>
         <ul className="nav-list">
-          <li><a href="#about"> About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact"> Email: 23joshtc@gmail.com,  Github:CIjoshTC</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </nav>
     </header>

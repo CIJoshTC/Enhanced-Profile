@@ -5,6 +5,12 @@ import About from './components/About'
 import Projects from './components/Projects';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('about'); // Default to 'about'
+
+  const handleNavClick = (section) => {
+    setActiveSection(section);
+  };
+
   return (
     <div className="App">
        <Header /> {}

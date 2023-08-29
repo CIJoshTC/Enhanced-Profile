@@ -10,9 +10,15 @@ const Header = (onNavClick)=> {
          <nav className="nav">
           <div className="logo">Joshua Thomas Connell</div>
             <ul className="nav-list">
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+            <li>
+            <a href="#about" onClick={() => handleNavLinkClick('about')}>About</a>
+          </li>
+          <li>
+            <a href="#projects" onClick={() => handleNavLinkClick('projects')}>Projects</a>
+          </li>
+          <li>
+            <a href="#contact" onClick={() => handleNavLinkClick('contact')}>Contact</a>
+          </li>
             </ul>
          </nav>
      

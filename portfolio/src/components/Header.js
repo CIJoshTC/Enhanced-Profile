@@ -1,7 +1,10 @@
 import React from 'react';
 import './Header.css'; 
 
-const Header = ()=> {
+const Header = (onNavClick)=> {
+  const handleNavLinkClick = (section) => {
+    onNavClick(section);
+  };
     return (
         <header className = "header">
          <nav className="nav">

@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header'
 import About from './components/About'
@@ -13,12 +14,10 @@ function App() {
 
   return (
     <div className="App">
-       <Header /> {}
-       <About /> {}
-       <Projects /> {}
-      <header className="App-header">
+      <Header onNavClick={handleNavClick} /> {/* Pass the click handler to the Header */}
+      {activeSection === 'about' && <About />}
+      {activeSection === 'projects' && <Projects />}
       
-      </header>
     </div>
   );
 }

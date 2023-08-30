@@ -5,53 +5,53 @@ import './Projects.css';
 
 const projectsData = [
     {
-        title: 'Project 1',
-        description: 'My first project.',
+        title: 'SEO project',
+        description: 'A search engine optimization assignmet. Through using semantic elements etc; search engine optimization increased.',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/Module-1-challenge-Horiseon-accessibility',
 
     },
 
     {
-        title: 'Project 1',
-        description: 'My first project.',
+        title: 'Randomized Password generator',
+        description: 'A genertaor that uses characters and numbers to randomly make a unique password',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/Randomized-password-generator',
     
 
     },
     {
-        title: 'Project 1',
-        description: 'My first project.',
+        title: 'The Recipe Bar ',
+        description: ' An application that allows users to search drinks and recieve ingredients and instructions on how to make them',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/The_Recipe_Bar_Josh'
 
     },
     {
-        title: 'Project 1',
+        title: 'All employed',
         description: 'My first project.',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/All-Employed',
 
     },
     {
-        title: 'Project 1',
+        title: 'Lightning Sales',
         description: 'My first project.',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/Lightning-Sales',
 
     },
     {
-        title: 'Project 1',
-        description: 'My first project.',
+        title: 'The All American Regex',
+        description: 'A tutorial explaining regular expression or regex functions. How it works on every level.',
         imageUrl: 'project1-image-url.jpg',
         demoUrl: 'https://project1-demo.com',
-        githubUrl: 'https://github.com/project1-repo',
+        githubUrl: 'https://github.com/CIJoshTC/The-All-American-Regex',
 
     }
 ];

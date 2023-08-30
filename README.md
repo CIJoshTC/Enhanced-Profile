@@ -6,7 +6,7 @@ This ia an updated version of my previous porfolio that i created in week 2 of t
 A React Portfolio that has multiple of my previous projects displayed, an about me section and a contacts section.
 
 ## Usage
-A profile that allows employerss and fellow collaboratrs to connecti and share information.
+A profile that allows employers and fellow collaboratrs to connecti and share information.
 
 ## Technologies
 - React

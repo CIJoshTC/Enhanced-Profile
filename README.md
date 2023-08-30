@@ -1,5 +1,5 @@
 # Enhanced-Profile
-This ia an updated version of my previous porfolio that i created in week 2 of the University of Miami Bootcamp
+This ia an updated version of my previous porfolio that i created in week 2 of the University of Miami Bootcamp.
  
  
 ## Description

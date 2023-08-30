@@ -7,7 +7,7 @@ const About = () => {
         <section id="about" className="about">
             <div className="about-content">
             <div className="profile-image">
-                    <img src="/IMG_0631.jpg" alt="Profile" /> {/* Use the image path */}
+                    <img src="/IMG_0631.jpg" alt="Profile" /> 
                 </div>
                 <h2>About</h2>
                 <p>

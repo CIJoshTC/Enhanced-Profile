@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 
 function App() {
-  const [activeSection, setActiveSection] = useState('about'); // Default to 'about'
+  const [activeSection, setActiveSection] = useState('about'); 
 
   const handleNavClick = (section) => {
     setActiveSection(section);
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header onNavClick={handleNavClick} /> {/* Pass the click handler to the Header */}
+      <Header onNavClick={handleNavClick} /> 
       {activeSection === 'about' && <About />}
       {activeSection === 'projects' && <Projects />}
       {activeSection === 'contacts' && <Contacts />}

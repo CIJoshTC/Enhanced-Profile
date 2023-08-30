@@ -18,3 +18,17 @@
     font-size: 18px;
     line-height: 1.6;
   }
+  .profile-image {
+    width: 200px; 
+    height: 225px; 
+    border-radius: 70%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 4px solid #fff; 
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

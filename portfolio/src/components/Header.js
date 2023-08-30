@@ -17,7 +17,7 @@ const Header = ({onNavClick})=> {
             <a href="#projects" onClick={() => handleNavLinkClick('projects')}>Projects</a>
           </li>
           <li>
-            <a href="#contact" onClick={() => handleNavLinkClick('contact')}>Contact</a>
+            <a href="#contacts" onClick={() => handleNavLinkClick('contacts')}>Contacts</a>
           </li>
             </ul>
          </nav>

@@ -53,6 +53,15 @@ const projectsData = [
         demoUrl: 'https://project1-demo.com',
         githubUrl: 'https://github.com/CIJoshTC/The-All-American-Regex',
 
+    },
+    {
+        title: 'myhealthspace',
+        description: 'A web application that allows users to add, update and delete fitness information and goals',
+        imageUrl: 'project1-image-url.jpg',
+        demoUrl: 'https://project1-demo.com',
+        githubUrl: 'https://github.com/CIJoshTC/The-All-American-Regex',
+        deployment: 'https://my-health-space-e9d209a11adb.herokuapp.com/',
+
     }
 ];
 
@@ -69,6 +78,7 @@ const Projects = () => {
               <div className="project-links">
                 <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">Demo</a>
                 <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href={project.deployment} target="_blank" rel="noopener noreferrer">Deployment</a>
               </div>
           </div>
         ))}

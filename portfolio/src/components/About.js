@@ -6,12 +6,12 @@ const About = () => {
     return (
         <section id="about" className="about">
             <div className="about-content">
-            <div className="profile-image">
-                    <img src="/IMG_0631.jpg" alt="Profile" /> 
-                </div>
-                <h2>About</h2>
+            <div id= "profile-image">
+                <img src={process.env.PUBLIC_URL + '/images/IMG_0631.jpg'} alt="Description of the image" className="profile-image" />
+             </div>
+                <h2></h2>
                 <p>
-                    Hello; My name is Joshua Connell and i am  web devloper learning new skills each day through the curriculum
+                        Hello; My name is Joshua Connell and i am  web devloper learning new skills each day through the curriculum
                     of my Bootcamp with the University of Miami. Coming from a background of relatively no computer experience i had a lot to take in initially. 
                     After some time picking up the skills and knowledges of the industry i have grown passionate aboutbuilding unique, state of the art websites taht can 
                     improve the world we live in. With new technologies coming out each day it is a very excity and dynamic
